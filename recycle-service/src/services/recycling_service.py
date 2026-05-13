@@ -1,5 +1,5 @@
 """
-Recycling Options Service for the Revive-or-Recycle Scanner.
+Recycling Options Service for the Revive-Recycle Scanner.
 
 Gives recycling recommendations through a layered approach:
   1. Brand-specific takeback programs (Apple Trade-In, Samsung, etc.)
@@ -51,7 +51,7 @@ class RecyclingService:
 
         return result
 
-    # -- Earth911 API Methods (used only when API key available) --
+    # -- Earth911 API Methods (if API key available) --
 
     def _fetch_earth911_centers(self, device_name: str, zip_code: str,
                                  max_results: int = 5) -> list:

@@ -41,7 +41,7 @@ def test_device_materials():
 
 def test_takeback_programs():
     print("=" * 55)
-    print("TEST 2: Take-Back Programs (Brand Matching)")
+    print("TEST 2: Brand Matching Take-Back Programs")
     print("=" * 55)
     test_devices = ["iPhone 11", "Samsung Galaxy S23", "MacBook Air", "Google Pixel 7"]
     for device in test_devices:
@@ -86,7 +86,7 @@ def test_full_pipeline():
 
 def test_all_devices():
     print("=" * 55)
-    print("TEST 5: All MVP Devices — Verify Coverage")
+    print("TEST 5: All MVP Device Coverage")
     print("=" * 55)
     all_devices = [
         "iPhone 14", "iPhone 13", "iPhone 12", "iPhone 11",
